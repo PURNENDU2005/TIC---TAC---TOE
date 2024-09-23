@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #414361;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+
+
+}
+
+
+.container {
+    margin-top: 1cm;
+    height: 59.68vmin;
+    width: 60vmin;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    gap: 2vmin;
+    /* border: 2px solid rgba(243, 243, 243, 0); */
+    background-color: #7F2CCB;
+    /* background: #000; */
+}
+
+.game {
+    height: 60vmin;
+    width: 60vmin;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    justify-items: center;
+    gap: 1vmin;
+
+}
+
+.box {
+    height: 19vmin;
+    width: 19vmin;
+    border: 2px solid rgba(255, 255, 255, 0.016);
+    border-radius: 0%;
+    font-size: 15vmin;
+    background-color: #2A2D43;
+    color: white;
+    cursor: pointer;
+}
+
+.reset {
+    width: 25vmin;
+    height: 10vmin;
+    font-weight: bolder;
+    font-size: larger;
+    border-radius: 10px;
+    border: 3px solid rgb(40, 40, 40);
+    background: #ffa9e7;
+    color: rgb(41, 41, 41);
+    margin-top: 20px;
+    cursor: pointer;
+
+}
+
+.hide {
+
+    display: none;
+}
+
+.head {
+    margin: 0 auto;
+    color: whitesmoke;
+    font-size: 50px;
+}
+
+.msg-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 380px;
+    height: 200px;
+    padding: 20px;
+    background-color: #0d3b66c7;
+    backdrop-filter: blur(6px);
+    color: rgb(0, 0, 0);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    z-index: 1000;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    flex-direction: column;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-items: center;
+}
+
+#new-Btn
+{
+    width: 100px;
+    height: 30px;
+    text-align: center;
+    border: 2px solid black;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+#msg
+{
+    color: white;
+    font-size: 30px;
+    font-weight: 900;
+}
